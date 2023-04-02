@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mos/home/homePage.dart';
 
 class Login extends StatefulWidget {
   const Login({super.key});
@@ -25,15 +26,17 @@ class _LoginState extends State<Login> {
                     decoration: InputDecoration(
                         border: OutlineInputBorder(),
                         prefixIcon: Icon(Icons.person),
-                        label: Text("Username or email address")),
+                        label: Text("Mobile number or email address")),
                   ),
                   SizedBox(height: 20),
                   TextFormField(
                     obscureText: true,
                     decoration: InputDecoration(
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.key),
-                        label: Text("Password")),
+                      border: OutlineInputBorder(),
+                      prefixIcon: Icon(Icons.key),
+                      label: Text("Password"),
+                    ),
+                    keyboardType: TextInputType.number,
                   ),
                   Container(
                     margin: EdgeInsets.all(20),
@@ -52,7 +55,9 @@ class _LoginState extends State<Login> {
                   ),
                   Container(
                       child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).pushReplacementNamed("HomePage");
+                    },
                     child: Text('submet'),
                   )),
                 ],
