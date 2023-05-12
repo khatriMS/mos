@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423422842421",
+    "project_id": "mose-e3f1e",
+    "storage_bucket": "mose-e3f1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423422842421:android:8630cfbac4e91c910f837c",
+        "android_client_info": {
+          "package_name": "com.example.mos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423422842421-80sv1roe3a6ce2g1gqnml4qnihb8oo09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlaRxCC3FI_iQhcsPOyPa-yKXK-F0-c78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423422842421-80sv1roe3a6ce2g1gqnml4qnihb8oo09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
